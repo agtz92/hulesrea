@@ -237,6 +237,7 @@ figcaption {
 
 .button.cc-jumbo-button.cc-jumbo-white:hover {
   background-color: #f1f1f1;
+  color: #5b0000;
 }
 
 .button.cc-jumbo-button.cc-jumbo-white:active {
@@ -1274,6 +1275,11 @@ figcaption {
   background-color: #e52b00;
 }
 
+.button-2:hover {
+  background-color: #dd4536;
+  color: #fff;
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 40px;
@@ -1341,6 +1347,70 @@ figcaption {
 
 .textarea-2 {
   min-height: 200px;
+}
+
+.wrapper-whats {
+  position: fixed;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  z-index: 200;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-color: #25d366;
+  color: #090b19;
+  text-decoration: none;
+}
+
+.div-whats {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  height: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-whats._70 {
+  width: 70%;
+}
+
+.subtitle {
+  position: relative;
+  z-index: 10;
+  color: #090b19;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.subtitle.whatsapp {
+  font-weight: 700;
 }
 
 @media screen and (max-width: 991px) {
@@ -1719,6 +1789,23 @@ figcaption {
   .footer-image {
     -o-object-fit: contain;
     object-fit: contain;
+  }
+
+  .wrapper-whats {
+    position: fixed;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
