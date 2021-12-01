@@ -142,7 +142,7 @@
       <h2 class="heading">Contáctanos</h2>
       <p>Estamos a tus órdenes. Escribe tus datos y una pequeña descripción de lo que necesitas. Nos pondremos en contacto contigo cuanto antes.</p>
       <div class="w-form">
-        <form name="wf-form-generic-contact" method="post" data-netlify="true">
+        <form name="form-generic-contact" method="POST" data-netlify="true">
           <div class="contact-form-grid-2">
             <div ><label for="First-Name-2" id="contact-first-name">Nombre</label><input type="text" class="w-input" maxlength="256" name="First-Name-2" data-name="First Name 2" placeholder="" id="First-Name-2" required=""></div>
             <div ><label for="servicios-2" id="contact-last-name">Servicio</label><select id="servicios-2" name="servicios-2" data-name="Servicios 2" class="w-select">
@@ -151,18 +151,14 @@
                 <option value="maquinados">Maquinados</option>
                 <option value="extrusion">Extrusión</option>
                 <option value="otros">Otros</option>
-              </select></div>
+              </select>
+            </div>
             <div ><label for="Email-2" id="contact-email">Email</label><input type="email" class="w-input" maxlength="256" name="Email-2" data-name="Email 2" placeholder="" id="Email-2" required=""></div>
             <div ><label for="Contact-Phone-Number-2" id="contact-phone">Teléfono</label><input type="tel" class="w-input" maxlength="256" name="Contact-Phone-Number-2" data-name="Contact Phone Number 2" placeholder="" id="Contact-Phone-Number-2"></div>
             <div ><label for="Message-2" id="contact-message">mensaje</label><textarea data-name="Message 2" maxlength="5000" id="Message-2" name="Message-2" placeholder="" class="textarea w-input"></textarea></div>
           </div><input type="submit" value="Enviar" data-wait="Por favor espera..." class="submit-button w-button">
         </form>
-        <div class="w-form-done">
-          <div>Thank you! Your submission has been received!</div>
-        </div>
-        <div class="w-form-fail">
-          <div>Oops! Something went wrong while submitting the form.</div>
-        </div>
+        
       </div>
     </div>
   </section>
